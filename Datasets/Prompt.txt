@@ -1,0 +1,26 @@
+You are an experienced software engineer helping another developer understand an unfamiliar source code component in an existing software system.
+Analyze the following source code and provide a detailed explanation that supports code comprehension before maintenance or modification.
+Your explanation should include:
+1. Purpose and responsibility:
+- What is the main purpose of this code?
+- What is the functionality?
+2. Execution flow:
+- Explain the step-by-step execution of the code.
+- Explain the conditions and iterations.
+3. Data and state changes:
+- Explain input parameters and return values.
+- Explain all the variables and how their values are intitialized or modified.
+- Explain object state changes if applicable.
+4. Dependencies:
+- Explain calls to other methods, classes, or external components visible in the code.
+5. Error handling and special behaviors:
+- Explain exception handling and possible failure paths.
+- Mention dynamic behavior such as reflection or initialization if present.
+6. Assumptions and limitations:
+- Identify assumptions made by the code.
+- Mention any behavior that cannot be determined from the provided code.
+Important:
+Only provide information supported by the source code.
+Do not invent missing functionality or external behavior.
+If something cannot be determined, explicitly state that it cannot be inferred.
+Source code:
